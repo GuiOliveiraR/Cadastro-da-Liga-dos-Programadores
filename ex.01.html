@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <h1>Cadastro da Liga dos Programadores</h1>
+    <form>
+        <p><label for="nome">Nome:</label> <input type="text" id="nome" name="nome"></p>
+        <label for="email">Email:</label> <input type="email" name="email">
+        <label for="senha">- Senha: </label> <input type="password" name="password">
+        <p><label for="data"> Data de Nascimento: </label> <input type="date">
+        <label for="foto">- Foto: </label><input type="file">
+        <p><label for="nacionalidade">Nacionalidade: </label> 
+        <select id="nacionalidade" name="nacionalidade">
+            <option value="Brasil">Brasil</option>
+            <option value="Belgica">Belgica</option>
+            <option value="Inglaterra">Inglaterra</option>
+            <option value="Alemanha">Alemanha</option>
+          </select>
+          
+          <label for="Genero">- Genero: </label>
+          <label for="F">F</label>
+          <input type="radio" id="F" name="fav_language" value="F">
+          <label for="M">M</label>
+          <input type="radio" id="M" name="fav_language" value="M">
+        </p>
+        <p>
+            <p>Linguagens que você domina:</p>
+            <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+            <label for="JavaScript"> JavaScript</label>
+            <input type="checkbox" id="Python" name="Python" value="Python">
+            <label for="Python"> Python</label>
+            <input type="checkbox" id="C#" name="C#" value="C#">
+            <label for="C#"> C#</label>
+            <input type="checkbox" id="Java" name="Java" value="Java">
+            <label for="Java"> Java</label>
+        </p>
+        
+            <textarea name="message" rows="5" cols="40">Por que você quer ser um Programador?</textarea>
+         <p></p>
+         <input type="submit" value="Criar">
+      </form>
+</body>
+</html>
